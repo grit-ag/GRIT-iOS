@@ -1,0 +1,70 @@
+# this is an auto generated file. This will be overwritten
+mutation DeleteAnimals($id: String!) {
+  deleteAnimals(id: $id) {
+    id
+    type
+    subtype
+    isHealthy
+    born
+    lastChecked
+    count
+  }
+}
+mutation CreateAnimals($createAnimalsInput: CreateAnimalsInput!) {
+  createAnimals(createAnimalsInput: $createAnimalsInput) {
+    id
+    type
+    subtype
+    isHealthy
+    born
+    lastChecked
+    count
+  }
+}
+mutation UpdateAnimals($updateAnimalsInput: UpdateAnimalsInput!) {
+  updateAnimals(updateAnimalsInput: $updateAnimalsInput) {
+    id
+    type
+    subtype
+    isHealthy
+    born
+    lastChecked
+    count
+  }
+}
+mutation CreateEvents(
+  $input: CreateEventsInput!
+  $condition: ModelEventsConditionInput
+) {
+  createEvents(input: $input, condition: $condition) {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+mutation UpdateEvents(
+  $input: UpdateEventsInput!
+  $condition: ModelEventsConditionInput
+) {
+  updateEvents(input: $input, condition: $condition) {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+mutation DeleteEvents(
+  $input: DeleteEventsInput!
+  $condition: ModelEventsConditionInput
+) {
+  deleteEvents(input: $input, condition: $condition) {
+    id
+    title
+    content
+    price
+    rating
+  }
+}

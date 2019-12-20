@@ -1,0 +1,58 @@
+type Events @model {
+  id: ID!
+  title: String!
+  content: String!
+  price: Int
+  rating: Float
+}
+
+input CreateAnimalsInput {
+  id: String!
+  type: String!
+  subtype: String!
+  isHealthy: Int!
+  born: AWSDateTime!
+  lastChecked: AWSDateTime!
+  count: Int!
+}
+
+type Animals {
+  id: String!
+  type: String!
+  subtype: String!
+  isHealthy: Int!
+  born: AWSDateTime!
+  lastChecked: AWSDateTime!
+  count: Int!
+}
+
+input UpdateAnimalsInput {
+  id: String!
+  type: String
+  subtype: String
+  isHealthy: Int
+  born: AWSDateTime
+  lastChecked: AWSDateTime
+  count: Int
+}
+
+type Mutation {
+  deleteAnimals(id: String!): Animals
+  createAnimals(createAnimalsInput: CreateAnimalsInput!): Animals
+  updateAnimals(updateAnimalsInput: UpdateAnimalsInput!): Animals
+}
+
+type Query {
+  getAnimals(id: String!): Animals
+  listAnimalss: [Animals]
+}
+
+type Subscription {
+  onCreateAnimals: Animals @aws_subscribe(mutations: ["createAnimals"])
+}
+
+schema {
+  query: Query
+  mutation: Mutation
+  subscription: Subscription
+}

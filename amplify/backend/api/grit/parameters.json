@@ -1,0 +1,11 @@
+{
+    "AppSyncApiName": "grit",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": "false",
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authgritbbf6d876",
+            "Outputs.UserPoolId"
+        ]
+    }
+}

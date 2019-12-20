@@ -1,0 +1,39 @@
+# this is an auto generated file. This will be overwritten
+subscription OnCreateAnimals {
+  onCreateAnimals {
+    id
+    type
+    subtype
+    isHealthy
+    born
+    lastChecked
+    count
+  }
+}
+subscription OnCreateEvents {
+  onCreateEvents {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+subscription OnUpdateEvents {
+  onUpdateEvents {
+    id
+    title
+    content
+    price
+    rating
+  }
+}
+subscription OnDeleteEvents {
+  onDeleteEvents {
+    id
+    title
+    content
+    price
+    rating
+  }
+}

@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,16 @@
 		0FC2961E23A57298009E12EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0FC2961C23A57298009E12EA /* LaunchScreen.storyboard */; };
 		0FC2962923A57298009E12EA /* GRITTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2962823A57298009E12EA /* GRITTests.swift */; };
 		0FC2963423A57298009E12EA /* GRITUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC2963323A57298009E12EA /* GRITUITests.swift */; };
+		0FF1ECAD23A58727006B84BF /* Events.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECAA23A58727006B84BF /* Events.swift */; };
+		0FF1ECAE23A58727006B84BF /* Events+Schema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECAB23A58727006B84BF /* Events+Schema.swift */; };
+		0FF1ECB223A5939E006B84BF /* AmplifyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECB123A5939D006B84BF /* AmplifyModels.swift */; };
+		0FF1ECB423A5E997006B84BF /* AnimalDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECB323A5E997006B84BF /* AnimalDetail.swift */; };
+		0FF1ECB623A5ECB5006B84BF /* Animal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECB523A5ECB5006B84BF /* Animal.swift */; };
+		0FF1ECB823A605EB006B84BF /* DetailMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECB723A605EB006B84BF /* DetailMapView.swift */; };
+		0FF1ECBA23A86C7E006B84BF /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECB923A86C7E006B84BF /* SignupView.swift */; };
+		0FF1ECBC23A9B628006B84BF /* Auth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECBB23A9B628006B84BF /* Auth.swift */; };
+		0FF1ECBE23ACC8CA006B84BF /* OTCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FF1ECBD23ACC8CA006B84BF /* OTCView.swift */; };
+		28D2E64F9A824315F047B554 /* Pods_GRIT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08CEB59630D3CACDA0F915A3 /* Pods_GRIT.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		061B890E72114E1AB37A7DA7 /* amplifyxc.config */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = amplifyxc.config; path = /Users/p/Development/iOS/GRIT/amplifyxc.config; sourceTree = "<group>"; };
+		08CEB59630D3CACDA0F915A3 /* Pods_GRIT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GRIT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC2960B23A57297009E12EA /* GRIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GRIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC2960E23A57297009E12EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0FC2961023A57297009E12EA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +63,17 @@
 		0FC2962F23A57298009E12EA /* GRITUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GRITUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FC2963323A57298009E12EA /* GRITUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GRITUITests.swift; sourceTree = "<group>"; };
 		0FC2963523A57298009E12EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0FF1ECAA23A58727006B84BF /* Events.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Events.swift; sourceTree = "<group>"; };
+		0FF1ECAB23A58727006B84BF /* Events+Schema.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Events+Schema.swift"; sourceTree = "<group>"; };
+		0FF1ECB123A5939D006B84BF /* AmplifyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AmplifyModels.swift; sourceTree = "<group>"; };
+		0FF1ECB323A5E997006B84BF /* AnimalDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalDetail.swift; sourceTree = "<group>"; };
+		0FF1ECB523A5ECB5006B84BF /* Animal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animal.swift; sourceTree = "<group>"; };
+		0FF1ECB723A605EB006B84BF /* DetailMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailMapView.swift; sourceTree = "<group>"; };
+		0FF1ECB923A86C7E006B84BF /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		0FF1ECBB23A9B628006B84BF /* Auth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Auth.swift; sourceTree = "<group>"; };
+		0FF1ECBD23ACC8CA006B84BF /* OTCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTCView.swift; sourceTree = "<group>"; };
+		3E34D9401204624216360574 /* Pods-GRIT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRIT.release.xcconfig"; path = "Target Support Files/Pods-GRIT/Pods-GRIT.release.xcconfig"; sourceTree = "<group>"; };
+		650E344BBE2A5ADB5618BDF0 /* Pods-GRIT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GRIT.debug.xcconfig"; path = "Target Support Files/Pods-GRIT/Pods-GRIT.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28D2E64F9A824315F047B554 /* Pods_GRIT.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,10 +105,14 @@
 		0FC2960223A57297009E12EA = {
 			isa = PBXGroup;
 			children = (
+				0FF1ECA823A58727006B84BF /* models */,
 				0FC2960D23A57297009E12EA /* GRIT */,
 				0FC2962723A57298009E12EA /* GRITTests */,
 				0FC2963223A57298009E12EA /* GRITUITests */,
 				0FC2960C23A57297009E12EA /* Products */,
+				83667028FA6590147D9C1E89 /* Pods */,
+				690D74D58DC09CAE58D90675 /* Frameworks */,
+				061B890E72114E1AB37A7DA7 /* amplifyxc.config */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,11 +132,17 @@
 				0FC2960E23A57297009E12EA /* AppDelegate.swift */,
 				0FC2961023A57297009E12EA /* SceneDelegate.swift */,
 				0FC2961523A57297009E12EA /* ContentView.swift */,
+				0FF1ECB323A5E997006B84BF /* AnimalDetail.swift */,
+				0FF1ECB723A605EB006B84BF /* DetailMapView.swift */,
 				0FC2961723A57298009E12EA /* Assets.xcassets */,
 				0FC2961C23A57298009E12EA /* LaunchScreen.storyboard */,
 				0FC2961F23A57298009E12EA /* Info.plist */,
 				0FC2961223A57297009E12EA /* GRIT.xcdatamodeld */,
 				0FC2961923A57298009E12EA /* Preview Content */,
+				0FF1ECB523A5ECB5006B84BF /* Animal.swift */,
+				0FF1ECB923A86C7E006B84BF /* SignupView.swift */,
+				0FF1ECBD23ACC8CA006B84BF /* OTCView.swift */,
+				0FF1ECBB23A9B628006B84BF /* Auth.swift */,
 			);
 			path = GRIT;
 			sourceTree = "<group>";
@@ -139,6 +173,34 @@
 			path = GRITUITests;
 			sourceTree = "<group>";
 		};
+		0FF1ECA823A58727006B84BF /* models */ = {
+			isa = PBXGroup;
+			children = (
+				0FF1ECB123A5939D006B84BF /* AmplifyModels.swift */,
+				0FF1ECAA23A58727006B84BF /* Events.swift */,
+				0FF1ECAB23A58727006B84BF /* Events+Schema.swift */,
+			);
+			name = models;
+			path = amplify/generated/models;
+			sourceTree = "<group>";
+		};
+		690D74D58DC09CAE58D90675 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				08CEB59630D3CACDA0F915A3 /* Pods_GRIT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		83667028FA6590147D9C1E89 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				650E344BBE2A5ADB5618BDF0 /* Pods-GRIT.debug.xcconfig */,
+				3E34D9401204624216360574 /* Pods-GRIT.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,9 +208,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0FC2963823A57298009E12EA /* Build configuration list for PBXNativeTarget "GRIT" */;
 			buildPhases = (
+				940216F9D0C6959E16B92CB0 /* [CP] Check Pods Manifest.lock */,
 				0FC2960723A57297009E12EA /* Sources */,
 				0FC2960823A57297009E12EA /* Frameworks */,
 				0FC2960923A57297009E12EA /* Resources */,
+				CC9367C84CC4E9AB64466266 /* [CP] Embed Pods Frameworks */,
+				E1DDC1AF6D9C4E4A05C8F631 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -265,15 +330,83 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		940216F9D0C6959E16B92CB0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GRIT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC9367C84CC4E9AB64466266 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRIT/Pods-GRIT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRIT/Pods-GRIT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GRIT/Pods-GRIT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1DDC1AF6D9C4E4A05C8F631 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRIT/Pods-GRIT-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GRIT/Pods-GRIT-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GRIT/Pods-GRIT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0FC2960723A57297009E12EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FF1ECB823A605EB006B84BF /* DetailMapView.swift in Sources */,
+				0FF1ECAE23A58727006B84BF /* Events+Schema.swift in Sources */,
+				0FF1ECAD23A58727006B84BF /* Events.swift in Sources */,
+				0FF1ECB423A5E997006B84BF /* AnimalDetail.swift in Sources */,
 				0FC2960F23A57297009E12EA /* AppDelegate.swift in Sources */,
 				0FC2961423A57297009E12EA /* GRIT.xcdatamodeld in Sources */,
+				0FF1ECBE23ACC8CA006B84BF /* OTCView.swift in Sources */,
 				0FC2961623A57297009E12EA /* ContentView.swift in Sources */,
 				0FC2961123A57297009E12EA /* SceneDelegate.swift in Sources */,
+				0FF1ECBA23A86C7E006B84BF /* SignupView.swift in Sources */,
+				0FF1ECB223A5939E006B84BF /* AmplifyModels.swift in Sources */,
+				0FF1ECB623A5ECB5006B84BF /* Animal.swift in Sources */,
+				0FF1ECBC23A9B628006B84BF /* Auth.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,12 +569,14 @@
 		};
 		0FC2963923A57298009E12EA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 650E344BBE2A5ADB5618BDF0 /* Pods-GRIT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GRIT/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GRIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -449,18 +584,20 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.CinciFarms.GRIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0FC2963A23A57298009E12EA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E34D9401204624216360574 /* Pods-GRIT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"GRIT/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = GRIT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -468,7 +605,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.CinciFarms.GRIT;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

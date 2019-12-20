@@ -9,18 +9,37 @@
 import UIKit
 import CoreData
 
+import Amplify
+import AmplifyPlugins
+import AWSMobileClient
+
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        AWSMobileClient.default().initialize { (userState, error) in
+            if let userState = userState {
+                print("UserState: \(userState.rawValue)")
+            } else if let error = error {
+                print("error: \(error.localizedDescription)")
+            }
+        }
+        
+        let apiPlugin = AWSAPIPlugin(modelRegistration: AmplifyModels() as! AmplifyModelRegistration)
+        do {
+            try Amplify.add(plugin: apiPlugin)
+            try Amplify.configure()
+            print("Amplify initialized")
+        } catch {
+            print("Failed to configure Amplify \(error)")
+        }
         return true
     }
 
     // MARK: UISceneSession Lifecycle
-
+    
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
         // Called when a new scene session is being created.
         // Use this method to select a configuration to create the new scene with.
